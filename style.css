@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;  
+}
+
+body{
+    background-color: #1e1e1e;
+    color: white;
+    display: flex;
+    font-weight: 600;
+    min-height: 100vh;
+    min-width: 100vw;
+    
+}
+
+main{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main h1{
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 3rem;
+}
+
+main h2{
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+}
+
+main form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main form label{
+    display: flex;
+    flex-direction: column;
+}
+
+main form label span{
+    font-size: 1.1rem;
+    margin-top: 1.5rem;
+}
+
+main form input{
+    background: #444;
+    width: 300px;
+    height: 50px;
+    padding: 0 0.5rem;
+    margin-top: 0.2rem;
+    outline: none;
+    color: white;
+    font-size: 1rem;
+    border-radius: 8px;
+}
+
+main form input[type="submit"]{
+    cursor: pointer;
+    font-weight: 900;
+    width: 90%;
+    margin-top: 1rem;
+    margin-bottom: 0.7rem;
+    border: none;
+    border-radius: 32px;
+    background: #5c5c5c;
+    color: white;
+    font-size: 1.1rem;
+    transition: all .3s ease-in-out;
+}
+
+main form input[type="submit"]:hover{
+    background: #d02626;
+    box-shadow: 0 0 30px 0px #d02626;
+}
+
+main .socialmedia {
+    margin-top: 1rem;
+    display: flex;
+    align-content: center;
+}
+
+main .socialmedia a {
+    text-decoration: none;
+}
+
+main .socialmedia svg {
+    width: 36px;
+    height: 36px;
+    margin-left: 3rem;
+    transition: all .2s ease-in-out;
+}
+
+main .socialmedia a:first-child svg{
+    margin-left: 0;
+}
+
+main .socialmedia svg:hover {
+    fill: #d02626;
+    filter: drop-shadow(1px 1px 10px rgb(208 38 38 / 0.8));
+}
+
+main .contactus span{
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.5);
+    position: relative;
+}
+
+main .contactus span::before, main .contactus span::after {
+    position: absolute;
+    content: ' ';
+    height: 1px;
+    width: 100px;
+    bottom: 50%;
+    right: 100px;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+main .contactus span::after{
+    left: 100px;
+}
+
+main .contact {
+    margin-top: 0.5rem;
+    display: flex;
+    align-content: center;
+}
+
+main .contact a {
+    text-decoration: none;
+}
+
+main .contact svg {
+    width: 46px;
+    height: 46px;
+    margin-left: 3rem;
+    transition: all .2s ease-in-out;
+}
+
+main .contact a:first-child svg{
+    margin-left: 0;
+}
+
+main .contact svg:hover {
+    fill: #d02626;
+    filter: drop-shadow(1px 1px 10px rgb(208 38 38 / 0.8));
+}
+
